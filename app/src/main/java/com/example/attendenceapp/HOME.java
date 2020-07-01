@@ -25,8 +25,8 @@ public class HOME extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-       // scanbtn= (ImageView) findViewById(R.id.imageView3);
-        //scanbtn.setOnClickListener(this);
+        scanbtn= (ImageView) findViewById(R.id.imageView3);
+        scanbtn.setOnClickListener(this);
     }
 
 
